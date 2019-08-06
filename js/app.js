@@ -110,14 +110,14 @@ let game = {
 };
 
 let sounds = {
-    clickSfx: new initSound("../sound/click.mp3", 'fx'),
-    hoverSfx: new initSound("../sound/hover.mp3", 'fx'),
-    loseSfx: new initSound("../sound/evil_laugh.mp3", 'fx'),
-    winSfx: new initSound("../sound/harp.mp3", 'fx'),
-    winTurnSfx: new initSound("../sound/bell.mp3", 'fx'),
-    loseTurnSfx: new initSound("../sound/bones.mp3", 'fx'),
-    drawTurnSfx: new initSound("../sound/bat.mp3", 'fx'),
-    bgMusic: new initSound("../sound/bg_music.mp3", 'music'),
+    clickSfx: new initSound("./sound/click.mp3", 'fx'),
+    hoverSfx: new initSound("./sound/hover.mp3", 'fx'),
+    loseSfx: new initSound("./sound/evil_laugh.mp3", 'fx'),
+    winSfx: new initSound("./sound/harp.mp3", 'fx'),
+    winTurnSfx: new initSound("./sound/bell.mp3", 'fx'),
+    loseTurnSfx: new initSound("./sound/bones.mp3", 'fx'),
+    drawTurnSfx: new initSound("./sound/bat.mp3", 'fx'),
+    bgMusic: new initSound("./sound/bg_music.mp3", 'music'),
 }
 
 let handsIdleAnim = [];
