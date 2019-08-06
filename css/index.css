@@ -445,7 +445,6 @@ button:hover {
   overflow: none;
   opacity: 0;
   background: rgb(37, 37, 37);
-  font-size: 20px;
   transition: all 0.3s ease;
 }
 .sidebar.open {
@@ -485,8 +484,8 @@ about me
   align-items: center;
   color: var(--text-primery);
   text-decoration: none;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .about-me img.ghost-icon {
@@ -494,11 +493,11 @@ about me
 }
 
 .about-me a.facebook i{
-  width: 35%;
+  width: 30%;
   margin-top: 5px;
 }
 .about-me a.linked-in i{
-  width: 50%;
+  width: 40%;
   margin-top: 10px;
 }
 
