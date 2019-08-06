@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Rock Paper Scissors Halloween</title>
+</head>
+
+<body>
+    <!-- home page -->
+    <div class="page home-page">
+        <div class="text-wrapper">
+            <h1>Rock Paper Scissors</h1>
+            <h2>Halloween</h2>
+            <button class="start-btn"> Play </button>
+        </div>
+    </div>
+
+    <!-- avatar page -->
+    <div class="page avatar-page">
+        <div>
+            <div class="top-container">
+                <div class="avatar-img"></div>
+                <input type="text" placeholder="Enter Name" />
+            </div>
+
+            <ul class="avatar-img-list"></ul>
+            <button class="next-btn"> Next </button>
+        </div>
+    </div>
+
+
+    <!-- game mode page -->
+    <div class="page game-mode-page">
+        <div>
+            <h1>choose your game</h1>
+            <button class="btn single-btn"> Single Player </button>
+            <button class="btn multi-btn"> With a friend </button>
+        </div>
+    </div>
+
+    <!-- single player page -->
+    <div class="page single-player-page">
+        <!-- <h1>this is single player page</h1> -->
+    </div>
+
+    <!-- single player page -->
+    <div class="page game-page">
+        <div>
+            <!-- start game messages -->
+            <div class="msg info">
+                Get 3 Candies To Win
+            </div>
+            <div class="msg choose-hand">
+                Choose Your Hand
+            </div>
+            <div class="msg numbers">
+                <span>3</span>
+                <span>2</span>
+                <span>1</span>
+            </div>
+
+            <!-- end game messages -->
+            <div class="msg end-game-msg">
+                <div class="end-title">
+                    you win!
+                </div>
+                <button class="play-again-btn">
+                    Play again
+                </button>
+                <button class="back-menu-btn">
+                    Back to menu
+                </button>
+            </div>
+
+            <div class="big-win-icon">
+                <img src="./img/assets/candy.svg" alt="candy">
+            </div>
+            <div class="big-lose-icon">
+                <img src="./img/assets/bones.svg" alt="candy">
+            </div>
+            <div class="big-draw-icon">
+                <img src="./img/assets/bat.svg" alt="candy">
+            </div>
+
+            <!-- player 2  the opponent-->
+            <div class="details player2-details">
+                <h2>name</h2>
+                <img src="" alt="" class="player2-img">
+                <div class="candy-bar">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                </div>
+            </div>
+
+            <div class="hands player2-hand">
+                <img src="./img/hands/mummy/r.svg" alt="">
+            </div>
+
+            <!-- player 1 - the user -->
+            <div class="hands player1-hand">
+                <img src="./img/hands/mummy/p.svg" alt="">
+            </div>
+            <div class="details player1-details">
+                <h2>name</h2>
+                <img src="" alt="" class="player1-img">
+                <div class="candy-bar">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                    <img src="./img/assets/candy.svg" alt="candy">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- user controls -->
+        <div class="controls">
+            <button class="rock" data-control="r"></button>
+            <button class="paper" data-control="p"></button>
+            <button class="scissors" data-control="s"></button>
+        </div>
+    </div>
+
+    <div class="menu-btn">
+        <div class="bar1"><img src="./img/assets/menu_bone.svg" alt=""></div>
+        <div class="bar2"><img src="./img/assets/menu_bone.svg" alt=""></div>
+        <div class="bar3"><img src="./img/assets/menu_bone.svg" alt=""></div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sound">
+            <div>
+                <span>music</span>
+                <label class="switch">
+                    <input type="checkbox" name="music">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div>
+                <span>sound effects</span>
+                <label class="switch">
+                    <input type="checkbox" name="sfx">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <div class="about-me">
+            <img class="ghost-icon" src="./img/assets/ghost.svg">
+            <img class="ghost-icon" src="./img/assets/ghost.svg">
+            <img class="ghost-icon" src="./img/assets/ghost.svg">
+            <h2>ROY SHARONI</h2>
+            <h3>Web Developer</h3>
+            <div class="emails">
+                <a href="http://www.linkedin.com/in/roy-sharoni-a48b791" target="_blank" class="linked-in">
+                    <i><img src="./img/assets/linkedin.svg"></i>
+                </a>
+                <a href="http://www.facebook.com/roy.sharoni" target="_blank" class="facebook">
+                    <i><img src="./img/assets/facebook.svg"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
