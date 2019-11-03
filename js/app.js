@@ -24,7 +24,7 @@ const nextBtn = avatarPage.querySelector('.next-btn');
 let gameMode = document.querySelector('.game-mode-page');
 let gameModesElements = gameMode.querySelectorAll('.game-mode-page > div > *');
 const singleBtn = gameMode.querySelector('.single-btn');
-const multiBtn = gameMode.querySelector('.multi-btn');
+// const multiBtn = gameMode.querySelector('.multi-btn');
 const backAvatarBtn = gameMode.querySelector('.back-avatar-btn');
 
 
